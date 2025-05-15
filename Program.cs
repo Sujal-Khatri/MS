@@ -4,9 +4,9 @@ using MunicipalSolutions.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ==============================================
-// ✅ DATABASE & IDENTITY SETUP
-// ==============================================
+
+//  DATABASE & IDENTITY SETUP
+
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
     ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -18,18 +18,16 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
 })
-.AddRoles<IdentityRole>() // ✅ Enables roles
+.AddRoles<IdentityRole>() //  Enables roles
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// ==============================================
-// ✅ BUILD THE APP
-// ==============================================
+
+//  BUILD THE APP
+
 
 var app = builder.Build();
 
-// ==============================================
-// ✅ MIDDLEWARE PIPELINE
-// ==============================================
+
 
 if (app.Environment.IsDevelopment())
 {
@@ -42,25 +40,25 @@ else
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();  // ✅ Required to load CSS/JS
+app.UseStaticFiles();  //  Required to load CSS/JS
 app.UseRouting();
 
-app.UseAuthentication();  // ✅ Enable login system
+app.UseAuthentication();  //  Enable login system
 app.UseAuthorization();
 
-// ==============================================
-// ✅ ROUTING
-// ==============================================
+
+//  ROUTING
+
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapRazorPages();  // ✅ Required for Identity UI pages
+app.MapRazorPages();  //  Required for Identity UI pages
 
-// ==============================================
-// ✅ SEED ROLES AND ADMIN USER
-// ==============================================
+
+//  SEED ROLES AND ADMIN USER
+
 
 using (var scope = app.Services.CreateScope())
 {
@@ -98,8 +96,8 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// ==============================================
+
 // ✅ START THE APP
-// ==============================================
+
 
 app.Run();

@@ -12,5 +12,6 @@ namespace MunicipalSolutions.Models
         public DateTime PostedAt { get; set; } = DateTime.Now;
 
         public List<DiscussionReply> Replies { get; set; } = new();
+        
     }
 }

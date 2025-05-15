@@ -269,6 +269,10 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
     },
     {
+      "Id": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/uploads/37c79c46-f5ca-4faa-b27d-cc914509143f.webp",
+      "PackagePath": "staticwebassets/uploads/37c79c46-f5ca-4faa-b27d-cc914509143f.webp"
+    },
+    {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.MunicipalSolutions.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

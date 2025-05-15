@@ -10,6 +10,15 @@
 
 <h2 class="mb-4">🗣 Community Discussions</h2>
 
+@if (isLoggedIn)
+{
+    <div class="mb-3 text-end">
+        <a asp-controller="User" asp-action="Dashboard" class="btn btn-primary">
+            📝 Post a New Discussion
+        </a>
+    </div>
+}
+
 @if (Model != null && Model.Any())
 {
     foreach (var discussion in Model)
@@ -31,7 +40,7 @@
                         </form>
                     }
                 </div>
-
+                 
                 @if (isLoggedIn)
                 {
                     <form asp-controller="Discussion" asp-action="Reply" method="post" class="mt-3">

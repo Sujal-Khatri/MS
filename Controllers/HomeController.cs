@@ -51,7 +51,11 @@ namespace MunicipalSolutions.Controllers
         {
             return View();
         }
-
+        //privacy page
+        public IActionResult Privacy()
+        {
+            return View();
+        }
         // Default error page
         public IActionResult Error()
         {
