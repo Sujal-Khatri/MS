@@ -18,6 +18,7 @@ namespace MunicipalSolutions.Controllers
             _userManager = userManager;
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Reply(DiscussionReply reply)
         {
@@ -27,6 +28,30 @@ namespace MunicipalSolutions.Controllers
             _context.DiscussionReplies.Add(reply);
             await _context.SaveChangesAsync();
 
+            return RedirectToAction("Discussions", "Home");
+        }
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> DeletePost(int id)
+        {
+            var post = await _context.DiscussionPosts.FindAsync(id);
+            if (post == null || post.UserId != _userManager.GetUserId(User))
+                return Forbid();
+
+            _context.DiscussionPosts.Remove(post);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Discussions", "Home");
+        }
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> DeleteReply(int id)
+        {
+            var reply = await _context.DiscussionReplies.FindAsync(id);
+            if (reply == null || reply.UserId != _userManager.GetUserId(User))
+                return Forbid();
+
+            _context.DiscussionReplies.Remove(reply);
+            await _context.SaveChangesAsync();
             return RedirectToAction("Discussions", "Home");
         }
     }

@@ -1,44 +1,44 @@
 ﻿@model List<MunicipalSolutions.Models.Announcement>
 @{
-    ViewData["Title"] = "Home";
+ViewData["Title"] = "Home";
 }
 
-<div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
-    <div class="col">
-        <div class="bg-light border p-3 text-center shadow-sm">
-            <h5>📢 Announcements</h5>
-            <a href="#" class="btn btn-primary btn-sm">Read More</a>
-        </div>
-    </div>
-    <div class="col">
-        <div class="bg-light border p-3 text-center shadow-sm">
-            <h5>📝 Discussions</h5>
-            <a href="#" class="btn btn-primary btn-sm">Join Now</a>
-        </div>
-    </div>
-    <div class="col">
-        <div class="bg-light border p-3 text-center shadow-sm">
-            <h5>🔧 Municipal Services</h5>
-            <a href="#" class="btn btn-primary btn-sm">Explore</a>
-        </div>
-    </div>
-</div>
-
-<h2 class="mt-4 mb-3">🆕 Latest Announcements</h2>
-
+<div class="row mb-5"> <div class="col-md-6"> <a href="@Url.Action("Index", "Announcement")" class="card text-white bg-primary p-4 text-decoration-none"> <h4>📢 Announcements</h4> <p>Click to view all announcements</p> </a> </div> 
+<div class="col-md-6"> <a href="@Url.Action("Discussions", "Home")" class="card text-white bg-success p-4 text-decoration-none"> <h4>📝 Discussions</h4> <p>Click to view all discussions</p> </a> </div> </div> <h2 class="mt-4 mb-3">🆕 Latest Announcements</h2>
 @if (Model != null && Model.Any())
 {
-    <ul class="list-group">
-        @foreach (var a in Model)
-        {
-            <li class="list-group-item">
-                <h5>@a.Title</h5>
-                <p>@a.Message</p>
-            </li>
-        }
-    </ul>
+<div class="row">
+@foreach (var a in Model.Take(3)) // Only show 3 latest
+{
+<div class="col-md-4 mb-3">
+<div class="card shadow-sm">
+@if (!string.IsNullOrEmpty(a.ImagePath))
+{
+<img src="@a.ImagePath" class="card-img-top" alt="Announcement image" />
+}
+<div class="card-body">
+<h5 class="card-title">@a.Title</h5>
+<p class="card-text">@a.Message</p>
+<p class="text-muted small">@a.PostedAt.ToString("g")</p>
+</div>
+</div>
+</div>
+}
+</div>
 }
 else
 {
-    <p>No announcements available.</p>
+<p>No announcements available.</p>
 }
+<div style="
+    background-image: url('/images/Singha-Durbar_20200727162109.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+">
+    </div>
+</div>

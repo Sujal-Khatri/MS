@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6f8hd9TM2mxbrIf6R2VFJ5BDJ1bQ6weeKwqrbjjMMu8=",
+  "Hash": "DTtipMHMFIMJbkXs0JW76YmC3DjY8WXnY7bgdiuBsg4=",
   "Source": "MunicipalSolutions",
   "BasePath": "_content/MunicipalSolutions",
   "Mode": "Default",
@@ -3713,6 +3713,27 @@
       "OriginalItemSpec": "/Users/sarthakneupane/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.0/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
+      "Identity": "/Users/sarthakneupane/Documents/MunicipalSolutions/obj/Debug/net9.0/compressed/w9yfp8xcec-enodqq1bw2.gz",
+      "SourceId": "MunicipalSolutions",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthakneupane/Documents/MunicipalSolutions/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MunicipalSolutions",
+      "RelativePath": "css/style#[.{fingerprint=enodqq1bw2}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/css/style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g1vxus1odg",
+      "Integrity": "nAbblOiDIoiTfvN6bHelCCwqf/rCxKvLImz2ApUt6yc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/css/style.css"
+    },
+    {
       "Identity": "/Users/sarthakneupane/Documents/MunicipalSolutions/obj/Debug/net9.0/compressed/wr4dd3xks0-ag7o75518u.gz",
       "SourceId": "MunicipalSolutions",
       "SourceType": "Discovered",
@@ -4049,6 +4070,27 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
+      "Identity": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/css/style.css",
+      "SourceId": "MunicipalSolutions",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/",
+      "BasePath": "_content/MunicipalSolutions",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "enodqq1bw2",
+      "Integrity": "9m/jZ++5RfelTA+9WBXraixHEMu5rp1QmynaHse5De0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
       "Identity": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/favicon.ico",
       "SourceId": "MunicipalSolutions",
       "SourceType": "Discovered",
@@ -4068,6 +4110,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/images/aspnet.jpeg",
+      "SourceId": "MunicipalSolutions",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/",
+      "BasePath": "_content/MunicipalSolutions",
+      "RelativePath": "images/aspnet#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1x3fedhxf5",
+      "Integrity": "lTPFlcHOQIcJvEQhF3bKjAPSR/xiWvNxytNkdJn1l50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/aspnet.jpeg"
+    },
+    {
+      "Identity": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/images/Singha-Durbar_20200727162109.jpg",
+      "SourceId": "MunicipalSolutions",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/",
+      "BasePath": "_content/MunicipalSolutions",
+      "RelativePath": "images/Singha-Durbar_20200727162109#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avmmhv1e9j",
+      "Integrity": "usXmxQP1rvC40NFS5ozrMpweaSIRS6o2b9yquAuOyyo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Singha-Durbar_20200727162109.jpg"
     },
     {
       "Identity": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/js/site.js",
@@ -5684,6 +5768,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/obj/Debug/net9.0/compressed/w9yfp8xcec-enodqq1bw2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003355704698"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nAbblOiDIoiTfvN6bHelCCwqf/rCxKvLImz2ApUt6yc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 08:15:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9m/jZ++5RfelTA+9WBXraixHEMu5rp1QmynaHse5De0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9m/jZ++5RfelTA+9WBXraixHEMu5rp1QmynaHse5De0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9m/jZ++5RfelTA+9WBXraixHEMu5rp1QmynaHse5De0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 08:15:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9m/jZ++5RfelTA+9WBXraixHEMu5rp1QmynaHse5De0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/obj/Debug/net9.0/compressed/w9yfp8xcec-enodqq1bw2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nAbblOiDIoiTfvN6bHelCCwqf/rCxKvLImz2ApUt6yc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 08:15:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nAbblOiDIoiTfvN6bHelCCwqf/rCxKvLImz2ApUt6yc="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.enodqq1bw2.css",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/obj/Debug/net9.0/compressed/w9yfp8xcec-enodqq1bw2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003355704698"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nAbblOiDIoiTfvN6bHelCCwqf/rCxKvLImz2ApUt6yc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 08:15:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9m/jZ++5RfelTA+9WBXraixHEMu5rp1QmynaHse5De0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "enodqq1bw2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9m/jZ++5RfelTA+9WBXraixHEMu5rp1QmynaHse5De0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.enodqq1bw2.css",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9m/jZ++5RfelTA+9WBXraixHEMu5rp1QmynaHse5De0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 08:15:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "enodqq1bw2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9m/jZ++5RfelTA+9WBXraixHEMu5rp1QmynaHse5De0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.enodqq1bw2.css.gz",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/obj/Debug/net9.0/compressed/w9yfp8xcec-enodqq1bw2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nAbblOiDIoiTfvN6bHelCCwqf/rCxKvLImz2ApUt6yc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 08:15:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "enodqq1bw2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nAbblOiDIoiTfvN6bHelCCwqf/rCxKvLImz2ApUt6yc="
         }
       ]
     },
@@ -14550,6 +14932,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU="
+        }
+      ]
+    },
+    {
+      "Route": "images/aspnet.1x3fedhxf5.jpeg",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/images/aspnet.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lTPFlcHOQIcJvEQhF3bKjAPSR/xiWvNxytNkdJn1l50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 16:08:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1x3fedhxf5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/aspnet.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lTPFlcHOQIcJvEQhF3bKjAPSR/xiWvNxytNkdJn1l50="
+        }
+      ]
+    },
+    {
+      "Route": "images/aspnet.jpeg",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/images/aspnet.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lTPFlcHOQIcJvEQhF3bKjAPSR/xiWvNxytNkdJn1l50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 16:08:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lTPFlcHOQIcJvEQhF3bKjAPSR/xiWvNxytNkdJn1l50="
+        }
+      ]
+    },
+    {
+      "Route": "images/Singha-Durbar_20200727162109.avmmhv1e9j.jpg",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/images/Singha-Durbar_20200727162109.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usXmxQP1rvC40NFS5ozrMpweaSIRS6o2b9yquAuOyyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 15:42:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avmmhv1e9j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Singha-Durbar_20200727162109.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-usXmxQP1rvC40NFS5ozrMpweaSIRS6o2b9yquAuOyyo="
+        }
+      ]
+    },
+    {
+      "Route": "images/Singha-Durbar_20200727162109.jpg",
+      "AssetFile": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/images/Singha-Durbar_20200727162109.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usXmxQP1rvC40NFS5ozrMpweaSIRS6o2b9yquAuOyyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 15:42:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-usXmxQP1rvC40NFS5ozrMpweaSIRS6o2b9yquAuOyyo="
         }
       ]
     },

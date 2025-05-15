@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
       "Id": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/images/Singha-Durbar_20200727162109.jpg",
+      "PackagePath": "staticwebassets/images/Singha-Durbar_20200727162109.jpg"
+    },
+    {
+      "Id": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/images/aspnet.jpeg",
+      "PackagePath": "staticwebassets/images/aspnet.jpeg"
     },
     {
       "Id": "/Users/sarthakneupane/Documents/MunicipalSolutions/wwwroot/js/site.js",
